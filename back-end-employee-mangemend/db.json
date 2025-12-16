@@ -1,0 +1,126 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Web Devs updated again",
+      "employee_list": [
+        {
+          "id": 1,
+          "name": "Enes Shala",
+          "address": "Ferizaj Rruga Deshmoret e Kombit",
+          "email": "enes.shala@makerminds.org",
+          "phone": "044123123"
+        },
+        {
+          "id": 2,
+          "name": "Gerald Bytyqi",
+          "address": "Prishtine",
+          "email": "gerald@makerminds.org",
+          "phone": "044123122"
+        },
+        {
+          "id": 3,
+          "name": "Amir Kuleta",
+          "address": "Prishtine",
+          "email": "amir@makerminds.org",
+          "phone": "044123112"
+        },
+        {
+          "id": 10,
+          "name": "Enes",
+          "address": "Rr. Filan fisteku",
+          "email": "enes.shala@gmail.com",
+          "phone": "044123123"
+        },
+        {
+          "id": 11,
+          "name": "Enes",
+          "address": "Rr. Filan fisteku",
+          "email": "enes.shala@gmail.com",
+          "phone": "044123123"
+        },
+        {
+          "id": 12,
+          "name": "Enes",
+          "address": "Rr. Filan fisteku",
+          "email": "enes.shala@gmail.com",
+          "phone": "044123123"
+        },
+        {
+          "id": 13,
+          "name": "Gerald Bytyqi updated",
+          "address": "Rr. Adem Jashari",
+          "email": "Gerald@gmail.com",
+          "phone": "044123123"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sales Team",
+      "employee_list": [
+        {
+          "id": 4,
+          "name": "Amire Ademi",
+          "address": "Prizren",
+          "email": "enes.shala@makerminds.org",
+          "phone": "044123123"
+        },
+        {
+          "id": 5,
+          "name": "Leonard Dani",
+          "address": "Prishtine",
+          "email": "gerald@makerminds.org",
+          "phone": "044123122"
+        },
+        {
+          "id": 6,
+          "name": "Blerta Kryeziu",
+          "address": "Prishtine",
+          "email": "amir@makerminds.org",
+          "phone": "044123112"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Python Devs",
+      "employee_list": [
+        {
+          "id": 7,
+          "name": "Blerona Abdushi",
+          "address": "Prizren",
+          "email": "enes.shala@makerminds.org",
+          "phone": "044123123"
+        },
+        {
+          "id": 8,
+          "name": "Egzon Halimi",
+          "address": "Prishtine",
+          "email": "gerald@makerminds.org",
+          "phone": "044123122"
+        },
+        {
+          "id": 9,
+          "name": "Drin Gashi",
+          "address": "Prishtine",
+          "email": "amir@makerminds.org",
+          "phone": "044123112"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "employee_list": []
+    },
+    {
+      "id": 6,
+      "name": "Test",
+      "employee_list": []
+    }
+  ],
+  "lastUsedId": {
+    "departmentId": 7,
+    "employeeId": 13
+  }
+}
