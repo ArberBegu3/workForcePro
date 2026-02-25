@@ -48,12 +48,13 @@ const RegisterForm = () => {
     });
     const onSubmit = async (values) => {
         try {
+          const { confirmPassword, ...payload } = values;
           const response = await fetch(`${import.meta.env.VITE_BASE_URL}/api/auth/register`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
-            body: JSON.stringify(values),
+            body: JSON.stringify(payload),
           });
       
          

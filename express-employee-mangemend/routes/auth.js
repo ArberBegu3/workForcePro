@@ -22,7 +22,9 @@ router.post("/register", async (req, res) => {
       username, email, password: hashedPassword, status
     });
 
-    res.status(201).json(newUser);
+    // Don't send the hashed password back to the client
+    const { password: _, ...userWithoutPassword } = newUser;
+    res.status(201).json(userWithoutPassword);
 
   } catch (error) {
     res.status(500).json({ error: error.message });
